@@ -31,7 +31,7 @@ function App() {
       type="text"
       name="firstName"
       id="firstName"
-      placeholder="Love"
+      placeholder="Harsh"
       value={formData.firstName}
       onChange={changeHandler}
       className="border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 mb-2"
@@ -44,7 +44,7 @@ function App() {
       type="text"
       name="lastName"
       id="lastName"
-      placeholder="Babbar"
+      placeholder="Mahalle"
       value={formData.lastName}
       onChange={changeHandler}
       className="border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 mb-2"
@@ -57,7 +57,7 @@ function App() {
       type="email"
       name="email"
       id="email"
-      placeholder="love@abcd.com"
+      placeholder="harsh@abcd.com"
       value={formData.email}
       onChange={changeHandler}
       className="border rounded-md px-4 py-2 focus:outline-none focus:border-blue-500 mb-2"
